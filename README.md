@@ -5,8 +5,8 @@ This will pulling and create Wordpress, MySQL, phpMyAdmin containers into Docker
 ## Install Docker Desktop
 1. Download and install Docker Desktop from https://docs.docker.com/docker-for-windows/install/
 2. For Windows 10 Pro/Enterprise, enable Windows Linux Subsystems (WSL) v2 to allow Linux kernel can be run on Windows OS.
-3. When finish, start Docker Desktop and open Windows PowerShell with Administrator privilage (Run As Administrator).
-4. Try to pull image and deploy test container with below command:
+3. When finish, start Docker Desktop and make sure that you are running Linux container mode 
+4. Open Windows PowerShell with Administrator privilage (Run As Administrator). Pull image and deploy test container with command:
      `docker run hello-world `
 5. If the message "Hello World!" appear on you PowerShell screen, you are now good to go.
 
