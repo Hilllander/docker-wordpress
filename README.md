@@ -17,5 +17,5 @@ Download and install Git with its components (Git Bash, Git GUI) from https://gi
 
 ## Install Wordpress on Docker
 1. In PowerShell screen, go to directory you need to use as home directory, for example: `cd d:\dockershared`
-2. Create new home directory in above directory e.g. `mkdir wpsources`
+2. Create new home directory in above directory e.g. `mkdir wpsources` and enter to this `cd wpresources`
 3. Clone docker-wordpress Git repository using Git Bash: `git clone https://github.com/Hilllander/docker-wordpress.git`
