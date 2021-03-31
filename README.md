@@ -18,8 +18,8 @@ Download and install Git with its components (Git Bash, Git GUI) from https://gi
 2. Create new home directory in above directory by `mkdir wpsources` and enter to this by `cd wpsources`
 3. Clone docker-wordpress Git repository using Git Bash: `git clone https://github.com/Hilllander/docker-wordpress.git`
 4. Enter `dir` command to view content in "**wpsources**". There are a new directory "**docker-wordpress**" appeared. 
-5. Enter `cd docker-wordpress`, check content in **docker-wordpress** directory, there should have **docker-compose.yml** configuration file in it.
-7. Enter `docker-compose up -d` : to pulling images and create Wordpress, MySQL, phpMyAdmin stacks containers.
+5. Enter `cd docker-wordpress`, check content in **docker-wordpress** directory, there should have **docker-compose.yml** configuration file in it. Some port mapping configurations are set up but I recommened to use default value (you can try later when you know what you are going to do).
+7. Enter `docker-compose up -d` to pulling images and create Wordpress, MySQL, phpMyAdmin stacks containers.
 8. When done, you can access Wordpress from http://localhost:8800 and PMA from http://localhost:8801 from default port configurations.
 
 Now you are going to next steps of Wordpress installation which I'm not mentioned in this (lots of steps in Youtube:).
