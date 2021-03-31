@@ -1,8 +1,6 @@
 # docker-wordpress
 
-This will pulling and create Wordpress, MySQL, phpMyAdmin containers into Docker Desktop by using docker-compose script.
-
-How to install Wordpress on Docker using docker-compose.
+This will pulling and create Wordpress, MySQL, phpMyAdmin containers into Docker Desktop by using docker-compose script. Please carefully read below step-by-step on how to install Wordpress on Docker using docker-compose.
 
 ## Install Docker Desktop
 1. Download and install Docker Desktop from https://docs.docker.com/docker-for-windows/install/
