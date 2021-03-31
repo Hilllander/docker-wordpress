@@ -17,9 +17,9 @@ Download and install Git with its components (Git Bash, Git GUI) from https://gi
 1. In PowerShell screen, go to directory you need to use as home directory, for example: `cd d:\dockershared`
 2. Create new home directory in above directory by `mkdir wpsources` and enter to this by `cd wpsources`
 3. Clone docker-wordpress Git repository using Git Bash: `git clone https://github.com/Hilllander/docker-wordpress.git`
-4. Use `dir` command to view content in "**wpsources**". There are a new directory "**docker-wordpress**" appeared. Enter to this directory by `cd docker-wordpress`
-5. Check content in **docker-wordpress** directory, there should have **docker-compose.yml** configuration file in it.
-6. Using : `docker-compose up -d` : to pulling images and create Wordpress, MySQL, phpMyAdmin stacks containers.
-7. When done, you can access Wordpress from http://localhost:8800 and PMA from http://localhost:8801 from default port configurations.
+4. Enter `dir` command to view content in "**wpsources**". There are a new directory "**docker-wordpress**" appeared. 
+5. Enter `cd docker-wordpress`, check content in **docker-wordpress** directory, there should have **docker-compose.yml** configuration file in it.
+7. Enter `docker-compose up -d` : to pulling images and create Wordpress, MySQL, phpMyAdmin stacks containers.
+8. When done, you can access Wordpress from http://localhost:8800 and PMA from http://localhost:8801 from default port configurations.
 
 Now you are going to next steps of Wordpress installation which I'm not mentioned in this (lots of steps in Youtube:).
