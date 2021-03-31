@@ -20,4 +20,4 @@ Download and install Git with its components (Git Bash, Git GUI) from https://gi
 2. Create new home directory in above directory by `mkdir wpsources` and enter to this by `cd wpresources`
 3. Clone docker-wordpress Git repository using Git Bash: `git clone https://github.com/Hilllander/docker-wordpress.git`
 4. Use `dir` command to view content in "**wpresources**" directory. There are new directory name "**docker-wordpress**" appeared. Enter to this direcotory by `cd docker-wordpress`
-5. Pull images and create Wordpres stacks containers using :  `docker-compose up -d`
+5. Pull images and create Wordpress, MySQL, phpMyAdmin stacks containers using :  `docker-compose up -d`
